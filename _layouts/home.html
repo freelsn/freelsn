@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<ul>
+  {%- for post in site.posts -%}
+    {%- if post.title -%}
+      <li>
+        {{ post.title }} | {{ post.date }} | {{ post.url }}<br>
+        {{ post.dir }} | {{ post.path | absolute_url }}<br>
+        {{ post.category | default: "ddd" }}
+      </li>
+    {%- endif -%}
+  {%- endfor -%}
+</ul>

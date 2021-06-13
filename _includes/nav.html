@@ -1,0 +1,15 @@
+<nav>
+  <a href="{{ site.baseurl }}">{{ site.title }}</a>
+  <ul>
+    {%- for page in site.pages -%}
+      {%- if page.title -%}
+        <li><a href="{{ page.url }}">{{ page.title }} {{ page.url }}</a></li>
+      {%- endif %}
+    {%- endfor -%}
+  </ul>
+
+  <form>
+    <input type="search" name="q" placeholder="Search query">
+    <input type="submit" value="Go!">
+  </form>
+</nav>
