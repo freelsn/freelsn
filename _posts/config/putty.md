@@ -3,25 +3,25 @@ title: Putty
 ---
 
 ```bash
-Black=77,77,77
-BoldBlack=85,85,85
-Red=187,0,0
-BoldRed=255,85,85
-Green=152,251,152
-BoldGreen=85,255,85
-Yellow=240,230,140
-BoldYellow=255,255,85
-Blue=205,133,63
-BoldBlue=135,206,235
-Magenta=255,222,173
-BoldMagenta=255,85,255
-Cyan=255,160,160
-BoldCyan=255,215,0
-White=245,222,179
-BoldWhite=255,255,255
-ForegroundColour=255,255,255
-BackgroundColour=51,51,51
-CursorColour=0,255,0
+Black=77,77,77  #4d4d4d
+BoldBlack=85,85,85  #555555
+Red=187,0,0  #bb0000
+BoldRed=255,85,85  #ff5555
+Green=152,251,152  #98fb98
+BoldGreen=85,255,85  #55ff55
+Yellow=240,230,140  #f0e68c
+BoldYellow=255,255,85  #ffff55
+Blue=205,133,63  #cd853f
+BoldBlue=135,206,235  #87ceeb
+Magenta=255,222,173  #ffdead
+BoldMagenta=255,85,255  #ff55ff
+Cyan=255,160,160  #ffa0a0
+BoldCyan=255,215,0  #ffd700
+White=245,222,179  #f5deb3
+BoldWhite=255,255,255  #ffffff
+ForegroundColour=255,255,255  #ffffff
+BackgroundColour=51,51,51  #333333
+CursorColour=0,255,0  #00ff00
 ```
 
 `putty.reg`
